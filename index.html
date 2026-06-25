@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLUE LOCK - Футбольная игра</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="shapka">
+            <div class="logo">
+                <h1>BLUE LOCK</h1>
+                <p>Футбольная игра нового поколения</p>
+            </div>
+            <div class="shapka_right">
+                <nav class="menu">
+                    <a href="#features">ОСОБЕННОСТИ</a>
+                    <a href="#teams">КОМАНДЫ</a>
+                    <a href="#gallery">ГАЛЕРЕЯ</a>
+                    <a href="#preorder">КОНТАКТЫ</a>
+                </nav>
+                <button class="knopka" onclick="otkryt_modal()">Предзаказ</button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu_secondary">
+        <div class="menu_secondary_content">
+            <a href="#">ГЛАВНАЯ</a>
+            <a href="#features">ВОЗМОЖНОСТИ</a>
+            <a href="#benefits">ПРЕИМУЩЕСТВА</a>
+            <a href="#gallery">СКРИНШОТЫ</a>
+        </div>
+    </nav>
+
+    <section class="glavnii">
+        <div class="container">
+            <div class="glavnii_text">
+                <h2>Футбол на новом уровне</h2>
+                <div class="predlozh">
+                    <h3>Что ты получишь:</h3>
+                    <p>► Реалистичный геймплей с игроками со всего мира</p>
+                    <p>► Турниры и события каждый месяц</p>
+                    <p>► Собери команду мечты и доказывай свое мастерство</p>
+                </div>
+                <button class="knopka_bol" onclick="otkryt_modal()">Оформить предзаказ</button>
+                <p class="malii_text">Получи эксклюзивные бонусы при запуске игры</p>
+            </div>
+            <div class="glavnii_img">
+                <img src="https://i.pinimg.com/736x/f5/d2/99/f5d29915b8364e9fde612768b3cd2580.jpg" alt="Blue Lock Game">
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="fon_serii">
+        <h2>Что делает BLUE LOCK особенной</h2>
+        <div class="kartochki">
+            <div class="kartochka">
+                <h3>⚽ Реалистичный геймплей</h3>
+                <p>Передачи, удары, прессинг - всё как в настоящем футболе. Сражайся в реальном времени против лучших игроков</p>
+            </div>
+            <div class="kartochka">
+                <h3>🏆 Международные турниры</h3>
+                <p>Участвуй в турнирах по всему миру. Получай награды, поднимайся в рейтингах, становись легендой</p>
+            </div>
+            <div class="kartochka">
+                <h3>👥 Онлайн сражения</h3>
+                <p>Играй против игроков со всей планеты. Рейтинги, матч-реквесты, дружественные игры - всё здесь</p>
+            </div>
+            <div class="kartochka">
+                <h3>💎 Развивай команду</h3>
+                <p>Тренируй игроков, открывай новые скины и карточки. Создай команду своей мечты</p>
+            </div>
+            <div class="kartochka">
+                <h3>📱 На всех платформах</h3>
+                <p>Играй на iOS, Android или PC. Синхронизируй прогресс между устройствами</p>
+            </div>
+            <div class="kartochka">
+                <h3>🎮 Постоянные обновления</h3>
+                <p>Новые события каждый месяц, новые команды, новые механики. Игра никогда не надоедает</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+    <h2>Скриншоты игры</h2>
+    <div class="kartochki">
+        <div class="kartochka_center">
+            <img class="karta_img" src="https://i.pinimg.com/736x/cb/21/e6/cb21e6d7243372338e4b7904dcb95f99.jpg" alt="Главный экран">
+            <h3>Главный экран</h3>
+            <p>Интуитивный интерфейс для управления командой</p>
+        </div>
+        <div class="kartochka_center">
+            <img class="karta_img" src="https://i.pinimg.com/736x/1d/ed/13/1ded13655fd0e93bad908680e8d92208.jpg" alt="Геймплей">
+            <h3>Геймплей</h3>
+            <p>Динамичные матчи с красивой графикой</p>
+        </div>
+        <div class="kartochka_center">
+            <img class="karta_img" src="https://i.pinimg.com/736x/b9/ff/e0/b9ffe05c2d9dc4dff52bb296ba3fbf12.jpg" alt="Награды">
+            <h3>Награды</h3>
+            <p>Коллекционируй карточки и скины игроков</p>
+        </div>
+    </div>
+</section>
+
+    <section id="teams" class="fon_serii">
+        <h2>Выбери команду</h2>
+        <div class="kartochki">
+            <div class="kartochka">
+                <h3>⚫ Атаки</h3>
+                <p>Команда с сильной атакующей тактикой</p>
+                <p>Идеальна для агрессивной игры и забивания голов</p>
+            </div>
+            <div class="kartochka">
+                <h3>🔵 Защита</h3>
+                <p>Крепкая защита и стойкая игра</p>
+                <p>Идеальна для контрольки матча и минимизации ошибок</p>
+            </div>
+            <div class="kartochka">
+                <h3>🔴 Скорость</h3>
+                <p>Быстрое движение и стремительные контратаки</p>
+                <p>Идеальна для команд, любящих быстрые переходы</p>
+            </div>
+            <div class="kartochka">
+                <h3>🟢 Баланс</h3>
+                <p>Уравновешенная игра со всех сторон</p>
+                <p>Идеальна для всех стилей игры и начинающих</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="forma">
+        <h2>Почему игроки выбирают BLUE LOCK</h2>
+        <div class="benefits_list">
+            <div class="benefit_item">
+                <p>✓ Бесплатно скачать с дополнительными покупками</p>
+            </div>
+            <div class="benefit_item">
+                <p>✓ Крупная и дружелюбная сообщество игроков</p>
+            </div>
+            <div class="benefit_item">
+                <p>✓ Поддержка на русском языке</p>
+            </div>
+            <div class="benefit_item">
+                <p>✓ Регулярные ивенты и турниры с наградами</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="preorder">
+        <h2>Оставь заявку на предзаказ</h2>
+        <div class="predlozh_preorder">
+            <p>Получи эксклюзивные бонусы при запуске игры:</p>
+            <p>► 5000 внутриигровой валюты</p>
+            <p>► Легендарную карточку игрока</p>
+            <p>► Уникальный скин команды</p>
+        </div>
+        <button class="knopka_bol" onclick="otkryt_modal()">Оставить заявку</button>
+        <p class="malii_text">Демо доступ откроется в ближайшее время</p>
+    </section>
+
+    <footer>
+        <div class="footer_bloki">
+            <div class="footer_blok">
+                <h3>BLUE LOCK</h3>
+                <p>Футбольная игра нового поколения</p>
+            </div>
+            <div class="footer_blok">
+                <h3>Разделы</h3>
+                <p><a href="#features">Особенности</a></p>
+                <p><a href="#teams">Команды</a></p>
+                <p><a href="#gallery">Галерея</a></p>
+                <p><a href="#preorder">Предзаказ</a></p>
+            </div>
+            <div class="footer_blok">
+                <h3>Информация</h3>
+                <p><a href="#">О разработчике</a></p>
+                <p><a href="#">Условия использования</a></p>
+                <p><a href="#">Политика конфиденциальности</a></p>
+            </div>
+            <div class="footer_blok">
+                <h3>Следи за нами</h3>
+                <p><a href="#">VK</a></p>
+                <p><a href="#">Telegram</a></p>
+                <p><a href="#">YouTube</a></p>
+            </div>
+        </div>
+        <p class="footer_niz">&copy; 2026 BLUE LOCK Game Studio</p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal_okno">
+            <span class="modal_close" onclick="zakryt_modal()">&times;</span>
+            
+            <div id="step1" class="step active">
+                <h2>Оставить заявку</h2>
+                <form id="forma" onsubmit="next_step(event)">
+                    <input type="text" placeholder="Твоё имя" id="name" required>
+                    <input type="email" placeholder="Твоя почта" id="email" required>
+                    <input type="tel" placeholder="Твой номер телефона" id="phone" required>
+                    <select id="platform" required>
+                        <option value="">Выбери платформу</option>
+                        <option value="ios">iOS</option>
+                        <option value="android">Android</option>
+                        <option value="pc">PC</option>
+                    </select>
+                    <button type="submit" class="knopka_bol">Далее</button>
+                </form>
+            </div>
+
+            <div id="step2" class="step">
+                <h2>Проверь данные</h2>
+                <div class="check_data">
+                    <p><strong>Имя:</strong> <span id="check_name"></span></p>
+                    <p><strong>Почта:</strong> <span id="check_email"></span></p>
+                    <p><strong>Телефон:</strong> <span id="check_phone"></span></p>
+                    <p><strong>Платформа:</strong> <span id="check_platform"></span></p>
+                </div>
+                <button class="knopka_bol" onclick="confirm_preorder()">Подтвердить</button>
+                <button class="knopka" onclick="back_step()" style="margin-top: 10px;">Назад</button>
+            </div>
+
+            <div id="step3" class="step">
+                <h2>Заявка принята!</h2>
+                <p>Спасибо за интерес к BLUE LOCK!</p>
+                <p>Все данные отправлены на твою почту.</p>
+                <p class="malii_text">Ты получишь письмо с деталями предзаказа</p>
+                <button class="knopka_bol" onclick="zakryt_modal()">Закрыть</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function otkryt_modal() {
+            document.getElementById('modal').style.display = 'flex';
+        }
+        function zakryt_modal() {
+            document.getElementById('modal').style.display = 'none';
+            resetModal();
+        }
+        function next_step(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const platform = document.getElementById('platform').value;
+            document.getElementById('check_name').textContent = name;
+            document.getElementById('check_email').textContent = email;
+            document.getElementById('check_phone').textContent = phone;
+            document.getElementById('check_platform').textContent = platform;
+            document.getElementById('step1').classList.remove('active');
+            document.getElementById('step2').classList.add('active');
+        }
+        function back_step() {
+            document.getElementById('step2').classList.remove('active');
+            document.getElementById('step1').classList.add('active');
+        }
+        function confirm_preorder() {
+            document.getElementById('step2').classList.remove('active');
+            document.getElementById('step3').classList.add('active');
+        }
+        function resetModal() {
+            document.getElementById('forma').reset();
+            document.getElementById('step1').classList.add('active');
+            document.getElementById('step2').classList.remove('active');
+            document.getElementById('step3').classList.remove('active');
+        }
+        window.onclick = function(event) {
+            const modal = document.getElementById('modal');
+            if (event.target === modal) {
+                zakryt_modal();
+            }
+        }
+    </script>
+</body>
+</html>
